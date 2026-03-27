@@ -35,7 +35,7 @@ st.title("🚨 Fraud Intelligence Dashboard")
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\maxki\Downloads\bank_transactions_data_2.csv")
+    return pd.read_csv("bank_transactions_data_2.csv")
 
 df = load_data()
 
